@@ -1,4 +1,4 @@
-import { Auth } from "aws-amplify";
+//import { Auth } from "aws-amplify";
 import { useState } from "react";
 import {
     Text,
@@ -7,47 +7,47 @@ import {
     Pressable,
     ScrollView,
 } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import { useChatContext } from "stream-chat-expo";
-import { useAuthContext } from "../contexts/AuthContext";
-import Navigation from "../navigation";
+//import { SafeAreaView } from "react-native-safe-area-context";
+//import { useChatContext } from "stream-chat-expo";
+//import { useAuthContext } from "../contexts/AuthContext";
+//import Navigation from "../navigation";
 
 const SignUpScreen = () => {
     const [username, setUsername] = useState("");
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
-    const { setUserId } = useAuthContext();
+   // const { setUserId } = useAuthContext();
 
-    const { client } = useChatContext();
+   // const { client } = useChatContext();
 
-    const connectUser = async () => {
+   // const connectUser = async () => {
         // sign in with your backend and get the user token
 
 
-        await client.connectUser(
-            {
-                id: username,
-                name: name,
-                image:
-                    "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png",
-            },
-            client.devToken(username)
-        );
+     //   await client.connectUser(
+     //       {
+     //           id: username,
+    //            name: name,
+     //           image:
+     //               "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png",
+      //      },
+     //       client.devToken(username)
+     //   );
 
-        const channel = client.channel("livestream", "public", { name: "Public" });
-        await channel.watch();
+      //  const channel = client.channel("livestream", "public", { name: "Public" });
+     //   await channel.watch();
 
-        setUserId(username);
-    };
+      //  setUserId(username);
+    //};
 
-    const signUp = () => {
-        connectUser();
+   // const signUp = () => {
+   //     connectUser();
 
         // navigate to the home page
-    };
+   // };
 
     return (
-        <SafeAreaView style={styles.container}>
+     //   <SafeAreaView style={styles.container}>
             <ScrollView>
                 <Text style={styles.title}>Welcome back</Text>
                 <Text style={styles.subtitle}>We are so excited to see you again</Text>
@@ -82,7 +82,7 @@ const SignUpScreen = () => {
                     <Text style={styles.buttonText}>Login</Text>
                 </Pressable>
             </ScrollView>
-        </SafeAreaView>
+        //</SafeAreaView>
     );
 };
 
