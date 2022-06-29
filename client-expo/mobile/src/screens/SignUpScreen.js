@@ -1,4 +1,13 @@
 //import { Auth } from "aws-amplify";
+
+//@landeron: este codigo es robado y ni me acuerdo de donde solo recuerdo que
+//fue un login de discord
+//no deberia usarse y es solo para tomarme referencias 
+//estaba en formato typescript o algo asi ykc 
+
+
+
+
 import { useState } from "react";
 import {
     Text,
