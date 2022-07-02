@@ -4,10 +4,12 @@
 para que funcione el front
  
 abrir el Command Prompt 
- cd client-expo
- cd mobile
- expo start
- y de todas maneras habra error :3
+cd client-expo
+cd mobile
+expo start
+y de todas maneras habra error :c
+voy a instalarlo de 0 otra vez
+
 
 debe tener instalados en la pc estas weas que yo le meti
 osea que en mi pc sirve
