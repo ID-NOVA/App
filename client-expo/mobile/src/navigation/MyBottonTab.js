@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import Home from "../screens/Home";
 import Profile from "../screens/Profile";
-import Schedule from "../../screens/Schedule";
+import Schedule from "../screens/Schedule";
 import Califications from "../screens/Califications";
 import Settings from "../screens/Settings";
 import { Octicons } from '@expo/vector-icons';

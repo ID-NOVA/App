@@ -1,0 +1,25 @@
+import { createDrawerNavigator } from "@react-navigation/drawer"
+import MyStack from "./MyStack";
+
+const Drawer = createDrawerNavigator();
+
+export default function MyDrawer() {
+
+    return (
+        <Drawer.Navigator>
+
+            <Drawer.Screen name='Tramites' component={MyStack}
+                options={{
+                    headerShown: false,
+                    drawerPosition: 'right',
+                    //drawerActiveBackgroundColor:'#FFFFFF',
+                    drawerHideStatusBarOnOpen: false,
+                    drawerType: "slide",
+                    gestureEnabled: false,
+                }}
+            />
+        </Drawer.Navigator>
+
+    );
+
+}
