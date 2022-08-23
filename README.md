@@ -1,33 +1,8 @@
-# App 
-### workflow: only main 
+💬  In client-expo find the front end of the app 💬
 
-para que funcione el front
- 
-abrir el Command Prompt 
-cd client-expo
-cd mobile
-expo start
-y de todas maneras habra error :c
-voy a instalarlo de 0 otra vez
+👋to start the command "expo start" 👋
+-->  first need to locate in the folder "mobile" to do that you should opening the command promp in vscode
+ 🔭"you probably don´t see anything 'cus i delete it all"  🔭
 
-
-debe tener instalados en la pc estas weas que yo le meti
-osea que en mi pc sirve
-
-    con un:
-     npm i -g "paketaxo"
-    ya se instala 
-
-
-   "expo": "~45.0.0",
-    "expo-status-bar": "~1.3.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-native": "0.68.2",
-    "react-native-web": "0.17.7",
-    "yarn": "^1.22.19",
-    "expo-updates": "~0.13.2"
-
-    en la parte del backend
-     "express": "^4.18.1"
-      "nodemon": "^2.0.16"
+💬  in server folder can look the backend 💬
+ 🔭"you probably don´t see anything 'cus i don't start that part"  🔭
