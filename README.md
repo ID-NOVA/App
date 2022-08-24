@@ -6,3 +6,6 @@
 
 💬  in server folder can look the backend 💬
  🔭"you probably don´t see anything 'cus i don't start that part"  🔭
+ 
+ 
+https://expo.dev/@lander0n/ID-NOVA?serviceType=classic&dist
