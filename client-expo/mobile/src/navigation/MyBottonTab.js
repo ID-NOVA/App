@@ -43,7 +43,7 @@ export default function MyBottomTab() {
 
                 options={{
                     tabBarShowLabel: false,
-                    tabBarIcon: ({ color }) => <Octicons name="book" size={24} color={color} />
+                    tabBarIcon: ({ color }) => <Octicons name="calendar" size={24} color={color} />
                 }}
             />
 
@@ -54,7 +54,7 @@ export default function MyBottomTab() {
 
                 options={{
                     tabBarShowLabel: false,
-                    tabBarIcon: ({ color }) => <Octicons name="sun" size={24} color={color} />
+                    tabBarIcon: ({ color }) => <Octicons name="book" size={24} color={color} />
                 }}
             />
             <MyTab.Screen
@@ -74,7 +74,7 @@ export default function MyBottomTab() {
 
                 options={{
                     tabBarShowLabel: false,
-                    tabBarIcon: ({ color }) => <Octicons name="circle" size={24} color={color} />
+                    tabBarIcon: ({ color }) => <Octicons name="id-badge" size={24} color={color} />
                 }}
             />
         </MyTab.Navigator>

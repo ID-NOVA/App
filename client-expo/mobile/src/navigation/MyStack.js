@@ -2,7 +2,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Home from "../screens/Home";
 import Settings from "../screens/Settings";
 import Califications from "../screens/Califications";
-//import Home from "../screens/Home";
+import FormularioDePago from "../screens/FormularioDePago";
 import Profile from "../screens/Profile";
 import Schedule from "../screens/Schedule";
 
@@ -35,10 +35,10 @@ export default function MyStack() {
 
             <HomeStack.Group screenOptions={{ headerShown: true }}>
                    
-
+                <HomeStack.Screen name='FormularioDePago' component={FormularioDePago} />
 
 
             </HomeStack.Group>
         </HomeStack.Navigator >
     );
-}// <HomeStack.Screen name='Home' component={Home} />
+}
